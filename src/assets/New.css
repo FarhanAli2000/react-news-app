@@ -1,0 +1,50 @@
+
+.articles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .article {
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .article img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .article-author {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .article-description {
+    margin-bottom: 10px;
+  }
+  
+  .article-link {
+    color: blue;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .article {
+      width: 48%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .article {
+      width: 100%;
+    }
+  }
+  
